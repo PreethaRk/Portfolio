@@ -1,0 +1,36 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.banner {
+  height: 100vh;
+  background: linear-gradient(135deg, #0addf400, #16479ca7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navbar Active Link */
+.nav-link.active {
+  color: #00bcd4 !important;
+}
+
+/* Buttons */
+.btn-dark:hover, .btn-light:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Section Spacing */
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Footer */
+footer i:hover {
+  color: #00bcd4;
+  transition: 0.3s;
+}

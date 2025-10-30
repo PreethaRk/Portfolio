@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preetha's Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm" style="background-color: #111;">
+    <div class="container">
+      <a class="navbar-brand fs-3 fw-semibold" href="#home">Preetha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-4 text-uppercase">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="banner d-flex align-items-center text-center text-white">
+    <div class="container" data-aos="fade-up">
+      <h1 class="display-4 fw-bold mb-3">Welcome to Preetha's Portfolio</h1>
+      <p class="lead">Frontend Engineer | UI/UX Enthusiast | Creative Problem Solver</p>
+      <h4 class="pb-3">Building interactive, elegant, and responsive web experiences.</h4>
+      <a href="#contact" class="btn btn-light btn-lg text-uppercase mt-3">Connect with Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container" data-aos="fade-up">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <h2 class="fw-bold mb-3">About Me</h2>
+          <p>I am a results-driven professional with a strong commitment to excellence, continuous learning, and impactful collaboration. My experience spans diverse projects where I honed my skills in problem-solving, strategic thinking, and delivering high-quality outcomes.</p>
+          <p>Passionate about growth and teamwork, I thrive in environments that value creativity, communication, and forward-thinking approaches.</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="./Preetha.webp" alt="Preetha's Photo" class="img-fluid rounded-3 shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center text-uppercase mb-5 fw-bold">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <img src="./download.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text">A responsive personal portfolio built using HTML, CSS, Bootstrap, and JavaScript.</p>
+              <a href="#" class="btn btn-dark btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <img src="./react-icon_svg_.webp" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">React To-Do App</h5>
+              <p class="card-text">A simple and efficient to-do list application built using React and local storage.</p>
+              <a href="#" class="btn btn-dark btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <img src="./project img.webp" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">UI Dashboard</h5>
+              <p class="card-text">A sleek, data-driven dashboard UI created with modern front-end design principles.</p>
+              <a href="#" class="btn btn-dark btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center text-uppercase mb-5 fw-bold">Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded-3 shadow-sm h-100">
+            <i class="bi bi-code-slash fs-1 mb-3 text-primary"></i>
+            <h5>Frontend Development</h5>
+            <p>Expertise in building responsive, user-friendly interfaces using HTML, CSS, JavaScript, and Bootstrap.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded-3 shadow-sm h-100">
+            <i class="bi bi-lightning-charge fs-1 mb-3 text-warning"></i>
+            <h5>React.js</h5>
+            <p>Experienced in building dynamic single-page applications using React.js and component-based architecture.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded-3 shadow-sm h-100">
+            <i class="bi bi-palette fs-1 mb-3 text-success"></i>
+            <h5>UI/UX Design</h5>
+            <p>Proficient in creating intuitive interfaces with attention to detail, accessibility, and user experience.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progress Bars -->
+      <div class="mt-5">
+        <h4 class="text-uppercase text-center mb-4">Technical Proficiency</h4>
+        <div class="mb-3"><label>HTML / CSS</label><div class="progress"><div class="progress-bar bg-primary" style="width:95%">95%</div></div></div>
+        <div class="mb-3"><label>JavaScript</label><div class="progress"><div class="progress-bar bg-warning" style="width:90%">90%</div></div></div>
+        <div class="mb-3"><label>React.js</label><div class="progress"><div class="progress-bar bg-success" style="width:85%">85%</div></div></div>
+        <div class="mb-3"><label>Bootstrap</label><div class="progress"><div class="progress-bar bg-info" style="width:95%">95%</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center text-uppercase mb-5 fw-bold">Contact</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form class="p-4 border rounded-3 shadow-sm bg-white">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="mb-3">
+              <label for="mobile" class="form-label">Mobile Number</label>
+              <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="text-center mt-4">
+              <button type="submit" class="btn btn-dark btn-lg text-uppercase px-5">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white text-center">
+    <p class="mb-1">&copy; 2025 Preetha | All Rights Reserved</p>
+    <div>
+      <a href="https://linkedin.com" target="_blank" class="text-white me-3"><i class="bi bi-linkedin fs-4"></i></a>
+      <a href="https://github.com" target="_blank" class="text-white me-3"><i class="bi bi-github fs-4"></i></a>
+      <a href="mailto:youremail@example.com" class="text-white"><i class="bi bi-envelope fs-4"></i></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap & AOS Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <!-- Active Navbar Scroll Effect -->
+  <script>
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 80;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute("id");
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + current) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
